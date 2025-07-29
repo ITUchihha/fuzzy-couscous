@@ -1,7 +1,7 @@
 "use client"
 
-import * as React from "react"
 import * as ProgressPrimitive from "@radix-ui/react-progress"
+import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
@@ -16,7 +16,7 @@ function Progress({
       className={cn(
         " relative h-2 w-full overflow-hidden rounded-full",
         //Modified 
-        "border bg-transparent"
+        "border bg-white",
         className
       )}
       {...props}
@@ -31,3 +31,4 @@ function Progress({
 }
 
 export { Progress }
+
